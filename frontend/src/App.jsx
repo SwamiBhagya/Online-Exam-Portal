@@ -3,10 +3,10 @@ import SignUpForm from "./components/forms/SignUpForm";
 
 const App = () => {
   return (
-    <div>
-      <SignUpForm />
-      {/* <LoginForm /> */}
-    </div>
+    <>
+      {/* <SignUpForm /> */}
+      <LoginForm />
+    </>
   );
 };
 
