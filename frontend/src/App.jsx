@@ -4,8 +4,8 @@ import SignUpForm from "./components/forms/SignUpForm";
 const App = () => {
   return (
     <>
-      {/* <SignUpForm /> */}
-      <LoginForm />
+      <SignUpForm />
+      {/* <LoginForm /> */}
     </>
   );
 };
