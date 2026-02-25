@@ -85,7 +85,7 @@ const SignUpForm = () => {
           required
         />
         <div className="flex justify-center">
-          <button className="bg-blue-500 cursor-pointer text-white hover:bg-blue-600 text-xl p-1.5 px-4 mt-3  rounded ">
+          <button className="bg-blue-500 cursor-pointer text-white hover:bg-blue-600 text-xl p-1.5 px-4 mt-3 w-full rounded-xl ">
             Register
           </button>
         </div>
@@ -104,5 +104,5 @@ const SignUpForm = () => {
     </div>
   );
 };
-
+ 
 export default SignUpForm;

@@ -53,10 +53,10 @@ const LoginForm = () => {
             setPassWord(e.target.value);
           }}
         />
-        <div className="flex justify-center mt-4">
+        <div className="mt-4">
           <button
             type="submit"
-            className="bg-blue-400 cursor-pointer hover:bg-blue-500 p-2 flex text-white rounded-md text-center"
+            className="bg-blue-400 cursor-pointer w-full hover:bg-blue-500 p-2 flex justify-center text-white rounded-lg"
           >
             Login
           </button>
@@ -67,7 +67,7 @@ const LoginForm = () => {
           New User?{" "}
           <a
             className="text-blue-500  hover:text-blue-700 hover:underline"
-            href="#"
+            href=""
           >
             Register Here
           </a>
@@ -76,5 +76,5 @@ const LoginForm = () => {
     </div>
   );
 };
-
+ 
 export default LoginForm;
